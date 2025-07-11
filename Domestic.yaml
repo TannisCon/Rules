@@ -103,6 +103,7 @@ payload:
   - DOMAIN-SUFFIX,bababian.com
   - DOMAIN-SUFFIX,baidu.com
   - DOMAIN-SUFFIX,baidupcs.com
+  - DOMAIN-SUFFIX,bcebos.com
   - DOMAIN-SUFFIX,bdimg.com
   - DOMAIN-SUFFIX,bdstatic.com
   - DOMAIN-SUFFIX,beatsbydre.com
@@ -161,6 +162,7 @@ payload:
   - DOMAIN-SUFFIX,hongxiu.com
   - DOMAIN-SUFFIX,hujiang.com
   - DOMAIN-SUFFIX,hxcdn.net
+  - DOMAIN-SUFFIX,i8tq.com
   - DOMAIN-SUFFIX,icedropper.com
   - DOMAIN-SUFFIX,iciba.com
   - DOMAIN-SUFFIX,ifeng.com
@@ -210,6 +212,7 @@ payload:
   - DOMAIN-SUFFIX,netease.com
   - DOMAIN-SUFFIX,nfoservers.com
   - DOMAIN-SUFFIX,nuomi.com
+  - DOMAIN-SUFFIX,open-meteo.com
   - DOMAIN-SUFFIX,ourbits.club
   - DOMAIN-SUFFIX,ourdvs.com
   - DOMAIN-SUFFIX,passthepopcorn.me
@@ -309,7 +312,16 @@ payload:
   - DOMAIN-SUFFIX,zimuzu.tv
   - DOMAIN-SUFFIX,zmz002.com
 
-    # > Douyin
+  # > Ctrip
+  - DOMAIN-SUFFIX,ctrip.com
+  - DOMAIN-SUFFIX,tripcdn.com
+
+  # > Maxthon
+  - DOMAIN-SUFFIX,maxthonimg.com
+  - DOMAIN-SUFFIX,mxfast.com
+
+
+  # > Douyin
   - DOMAIN-SUFFIX,amemv.com
   - DOMAIN-SUFFIX,ixigua.com
   - DOMAIN-SUFFIX,ixiguavideo.com
@@ -322,3 +334,5 @@ payload:
   # > CN
   - DOMAIN-SUFFIX,gov.cn
   - DOMAIN-SUFFIX,cn
+
+

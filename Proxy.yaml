@@ -664,6 +664,7 @@ payload:
   - DOMAIN-SUFFIX,gcr.io
   - DOMAIN-SUFFIX,gmail.com
   - DOMAIN-SUFFIX,gosetsuden.jp
+  - DOMAIN-SUFFIX,gradle.org
   - DOMAIN-SUFFIX,gwtproject.org
   - DOMAIN-SUFFIX,hackmd.io
   - DOMAIN-SUFFIX,heroku.com
@@ -778,3 +779,8 @@ payload:
   - IP-CIDR,75.126.0.0/16,no-resolve
   - IP-CIDR,174.37.0.0/16,no-resolve
   - IP-CIDR,208.43.0.0/16,no-resolve
+
+  # > pytorch
+  - DOMAIN-SUFFIX,pytorch.org
+  - DOMAIN-SUFFIX,fontawesome.com
+  - DOMAIN-SUFFIX,hsforms.com
