@@ -1,0 +1,68 @@
+     
+rules:
+    - 'RULE-SET, Special, DIRECT'
+    # media
+    - 'RULE-SET, Netflix, 代理'
+    - 'RULE-SET, YouTube, 代理'
+    - 'RULE-SET, Bilibili, 直连'
+    - 'RULE-SET, Netease-Music, 直连'
+    - 'RULE-SET, Domestic-Media, 直连'
+    - 'RULE-SET, Niconico, 代理'
+    - 'RULE-SET, Other-Media, 代理'
+    - 'RULE-SET, Hentai, 代理'
+    - 'RULE-SET, Twitch, 代理'
+    - 'RULE-SET, Apple-Media, 代理'
+    # end of media
+    - 'RULE-SET, Apple, 直连'
+    - 'RULE-SET, Telegram, 代理'
+    - 'RULE-SET, OpenAI, 代理'
+    - 'RULE-SET, Discord, 代理'
+    - 'RULE-SET, Google-FCM, 代理'
+    - 'RULE-SET, Microsoft, 代理'
+    - 'RULE-SET, AI-Suite, 代理'
+    - 'RULE-SET, PayPal, 直连'
+    - 'RULE-SET, Scholar, 直连'
+    - 'RULE-SET, Speedtest, 代理'
+    - 'RULE-SET, Steam, 代理'
+    - 'RULE-SET, miHoYo, 直连'
+    - 'RULE-SET, PROXY, 代理'
+    - 'RULE-SET, Other-Proxy, 代理'
+    - 'RULE-SET, Github, 代理'
+    - 'RULE-SET, Domestic, 直连'
+    - 'RULE-SET, Domestic-IPs, 直连'
+    - 'RULE-SET, LAN, DIRECT'
+    - 'GEOIP, CN, 直连'
+    - 'MATCH, 规则回落'
+
+rule-providers:
+    Special: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Special.yaml', path: ./customRules/Special, interval: 86400 }
+    PROXY: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Proxy.yaml', path: ./customRules/Proxy, interval: 86400 }
+    Domestic: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Domestic.yaml', path: ./customRules/Domestic, interval: 86400 }
+    Domestic-IPs: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Domestic-IPs.yaml', path: ./customRules/Domestic_IPs, interval: 86400 }
+    LAN: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/LAN.yaml', path: ./customRules/LAN, interval: 86400 }
+    #media
+    Apple-Media: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Media/Apple-Media.yaml', path: ./customRules/Media/Apple_Media, interval: 86400 }
+    Bilibili: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Media/Bilibili.yaml', path: ./customRules/Media/Bilibili, interval: 86400 }
+    Domestic-Media: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Media/Domestic-Media.yaml', path: ./customRules/Media/Domestic_Media, interval: 86400 }
+    Hentai: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Media/Hentai.yaml', path: ./customRules/Media/Hentai, interval: 86400 }
+    Netease-Music: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Media/Netease-Music.yaml', path: ./customRules/Media/Netease_Music, indterval: 86400 }
+    Netflix: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Media/Netflix.yaml', path: ./customRules/Media/Netflix, interval: 86400 }
+    Niconico: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Media/Niconico.yaml', path: ./customRules/Media/Niconico, interval: 86400 }
+    Other-Media: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Media/Other-Media.yaml', path: ./customRules/Media/Other_Media, interval: 86400 }
+    Twitch: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Media/Twitch.yaml', path: ./customRules/Media/Twitch, interval: 86400 }
+    YouTube: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Media/YouTube.yaml', path: ./customRules/Media/YouTube, interval: 86400 }
+    #end of media
+    Telegram: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Telegram.yaml', path: ./customRules/Telegram, interval: 86400 }
+    Discord: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Discord.yaml', path: ./customRules/Discord, interval: 86400 }
+    Steam: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Steam.yaml', path: ./customRules/Steam, interval: 86400 }
+    Speedtest: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Speedtest.yaml', path: ./customRules/Speedtest, interval: 86400 }
+    PayPal: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/PayPal.yaml', path: ./customRules/PayPal, interval: 86400 }
+    Microsoft: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Microsoft.yaml', path: ./customRules/Microsoft, interval: 86400 }
+    AI-Suite: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/AI-Suite.yaml', path: ./customRules/AI_Suite, interval: 86400 }
+    Apple: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Apple.yaml', path: ./customRules/Apple, interval: 86400 }
+    Google-FCM: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Google-FCM.yaml', path: './Rules/Google_FCM', interval: 86400 }
+    Scholar: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Scholar.yaml', path: ./customRules/Scholar, interval: 86400 }
+    miHoYo: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/miHoYo.yaml', path: ./customRules/miHoYo, interval: 86400 }
+    Github: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Github.yaml', path: ./customRules/Github, interval: 86400 }
+    OpenAI: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/OpenAI.yaml', path: ./customRules/OpenAI, interval: 86400 }
+    Other-Proxy: { type: http, behavior: classical, url: 'https://git.taniscon.tech/TannisCon/Rules/main/Other-Proxy.yaml', path: ./customRules/Other_Proxy, interval: 86400 }
