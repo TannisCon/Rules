@@ -1,0 +1,22 @@
+payload:
+  # > Pornhub
+  - DOMAIN-SUFFIX,phncdn.com
+  - DOMAIN-SUFFIX,phprcdn.com
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,pornhubpremium.com
+
+  # > E-Hentai
+  - DOMAIN-SUFFIX,e-hentai.org
+  - DOMAIN-SUFFIX,hath.network
+
+  # > Danboru
+  - DOMAIN-SUFFIX,donmai.us
+
+  # > Xvideos
+  - DOMAIN-SUFFIX,xvideos-cdn.com
+  - DOMAIN-SUFFIX,xvideos.com
+  - DOMAIN-SUFFIX,mmcdn.com
+
+  # > h-anime
+  - DOMAIN-SUFFIX,hanime.tv
+  - DOMAIN-SUFFIX,highwinds-cdn.com
