@@ -143,7 +143,6 @@ payload:
   - DOMAIN-SUFFIX,cl.ly
   - DOMAIN-SUFFIX,clien.net
   - DOMAIN-SUFFIX,cloud.cupronickel.goog
-  - DOMAIN-SUFFIX,cloudflare.com
   - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN-SUFFIX,cloudgarage.jp
   - DOMAIN-SUFFIX,cloudmagic.com
@@ -786,3 +785,14 @@ payload:
   - DOMAIN-SUFFIX,pytorch.org
   - DOMAIN-SUFFIX,fontawesome.com
   - DOMAIN-SUFFIX,hsforms.com
+
+  # > cloudflare
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,cloudflare.dev
+  - DOMAIN-SUFFIX,workers.dev
+
+  # > unknown
+  - DOMAIN-SUFFIX,pendo.io
+  
+
+
