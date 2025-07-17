@@ -3,3 +3,6 @@ payload:
   - DOMAIN-SUFFIX,ttvnw.net
   - DOMAIN-SUFFIX,jtvnw.net
   - DOMAIN-SUFFIX,twitch.tv
+  - DOMAIN-SUFFIX,live-video.net
+  - DOMAIN-SUFFIX,twitchcdn.net
+  
