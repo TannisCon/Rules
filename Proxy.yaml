@@ -127,6 +127,7 @@ payload:
   - DOMAIN-SUFFIX,boxun.com
   - DOMAIN-SUFFIX,browserleaks.com
   - DOMAIN-SUFFIX,browserleaks.org
+  - DOMAIN-SUFFIX,browserleaks.net
   - DOMAIN-SUFFIX,cachefly.net
   - DOMAIN-SUFFIX,cbc.ca
   - DOMAIN-SUFFIX,cdn.angruo.com
