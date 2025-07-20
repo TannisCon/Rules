@@ -8,6 +8,7 @@ payload:
   # > E-Hentai
   - DOMAIN-SUFFIX,e-hentai.org
   - DOMAIN-SUFFIX,hath.network
+  - DOMAIN-SUFFIX,ehgt.org
 
   # > Danboru
   - DOMAIN-SUFFIX,donmai.us
