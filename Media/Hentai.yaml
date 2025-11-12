@@ -21,3 +21,6 @@ payload:
   # > h-anime
   - DOMAIN-SUFFIX,hanime.tv
   - DOMAIN-SUFFIX,highwinds-cdn.com
+
+  # > iwara
+  - DOMAIN-SUFFIX,iwara.tv
