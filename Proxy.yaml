@@ -795,6 +795,10 @@ payload:
   - DOMAIN-SUFFIX,cloudflare.dev
   - DOMAIN-SUFFIX,workers.dev
 
+  # > Ubuntu
+  - DOMAIN-SUFFIX,ubuntu.com
+  - DOMAIN-SUFFIX,ubuntu.org
+
   # > unknown
   - DOMAIN-SUFFIX,pendo.io
   
