@@ -8914,6 +8914,7 @@ payload:
   - IP-CIDR6,240E:97D:4:1E00::/60
   - IP-CIDR6,240E:97D:2010:100::/60
   - IP-CIDR6,240E:97F:3000:1102::/64
+
   - IP-CIDR6,240E:CF:8800::/56
   - IP-CIDR6,240E:E1:A800::/46
   - IP-CIDR6,240E:E1:A900::/48
@@ -8967,3 +8968,25 @@ payload:
   - IP-CIDR6,2409:8C54:810:208:2D::/112
   - IP-CIDR6,2409:8C54:871::/60
   - IP-CIDR6,2409:8C5C:110:63::/72
+
+# > Carrier Group IPv6 
+# > China Telecom IPv6 Jiangsu AS146966
+  - IP-CIDR6,240E:1A:160::/44
+  - IP-CIDR6,240E:982::/32  
+  - IP-CIDR6,240E:978::/32  
+# > China Telecom IPv6 Guangdong AS9808
+  - IP-CIDR6,240E:AC:8000::/32
+  - IP-CIDR6,240E:AD:8000::/32
+# > China Unicom IPv6 Guangdong AS4837
+  - IP-CIDR6,2408:8100::/32
+  - IP-CIDR6,2408:8200::/32
+# > China Mobile IPv6 Guangdong AS9809
+  - IP-CIDR6,2409:8800::/32
+  - IP-CIDR6,2409:8900::/32
+
+# > China Telecom IPv6
+  - IP-CIDR6,240E::/20
+# > China Unicom IPv6
+  - IP-CIDR6,2408:8000::/20
+# > China Mobile IPv6
+  - IP-CIDR6,2409:8000::/20
