@@ -316,6 +316,7 @@ payload:
 
   # > Ctrip
   - DOMAIN-SUFFIX,ctrip.com
+  - DOMAIN-SUFFIX,c-ctrip.com
   - DOMAIN-SUFFIX,tripcdn.com
 
   # > Maxthon
