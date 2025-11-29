@@ -189,6 +189,9 @@ payload:
   - DOMAIN-SUFFIX,edgecastcdn.net
   - DOMAIN-SUFFIX,edgekey.net
   - DOMAIN-SUFFIX,edgesuite.net
+  - DOMAIN-SUFFIX,eft-store.com
+  - DOMAIN-SUFFIX,escapefromtarkov.com
+  - DOMAIN-SUFFIX,eft-project.com
   - DOMAIN-SUFFIX,engadget.com
   - DOMAIN-SUFFIX,entrust.net
   - DOMAIN-SUFFIX,eurekavpt.com
@@ -469,6 +472,7 @@ payload:
   - DOMAIN-SUFFIX,talkonly.net
   - DOMAIN-SUFFIX,tapbots.com
   - DOMAIN-SUFFIX,tapbots.net
+  - DOMAIN-SUFFIX,tarkov.com
   - DOMAIN-SUFFIX,teamviewer.com
   - DOMAIN-SUFFIX,techcrunch.com
   - DOMAIN-SUFFIX,technorati.com
