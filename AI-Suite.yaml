@@ -86,6 +86,9 @@ payload:
   # > POE
   - DOMAIN-SUFFIX,poe.com
 
+  # > Qwen International
+  - DOMAIN-SUFFIX,qwen.ai
+
   # > Siri
   - DOMAIN,apple-relay.apple.com
   - DOMAIN,apple-relay.cloudflare.com
@@ -97,3 +100,6 @@ payload:
 
   # > Zed
   - DOMAIN-SUFFIX,zed.dev
+
+  # > Hugging Face
+  - DOMAIN-SUFFIX,huggingface.co
