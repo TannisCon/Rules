@@ -19,6 +19,9 @@ payload:
   - DOMAIN-SUFFIX,codeium.com
   - DOMAIN-SUFFIX,codeiumdata.com
 
+  # > Civitai
+  - DOMAIN-SUFFIX,civitai.com
+
   # > Copilot
   - DOMAIN-SUFFIX,githubcopilot.com
   - DOMAIN-SUFFIX,microsoftonline.com
